@@ -163,7 +163,3 @@ to verify, so the safe side was chosen.
 | `Prefs.kt` | All persistence: rules, usage, snoozes, day boundary |
 | `BlockActivity.kt` | The wall, with snooze / off-for-today |
 | `MainActivity.kt` | Setup, limits, browser selection |
-
-## Dependency versions
-
-Stable versions verified against Google Maven and Maven Central on 2026-09-29: AndroidX Core 1.19.1 (includes the former core-ktx extensions), AppCompat 1.8.0, Material 1.14.0, and JUnit 4.13.2, the latest release of the existing `junit:junit` artifact. No preview versions or dynamic version selectors are used. The Gradle distribution is verified with its official SHA-256 checksum.
